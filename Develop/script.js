@@ -1,5 +1,20 @@
 // Assignment code here
 
+function generatePassword(length, includeNumbers, includeSpecial){
+  var chars='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+  if(includeNumbers){
+    chars+='0123456789';
+  }
+  if(includeSpecial){
+    chars+='!#$%&@?[]^*)(+,.:;=><\_`~}{'
+  }
+}
+
+
+
+
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
