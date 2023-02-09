@@ -1,5 +1,4 @@
-// Assignment code here
-
+// function for letter, number, and special character selection
 function generatePassword(length, includeNumbers, includeSpecial){
   var chars='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
   if(includeNumbers){
