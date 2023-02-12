@@ -1,8 +1,9 @@
-
+// Tells the javascript to create an event for when the Generate button is clicked
   var generateBtn = document.querySelector("#generate");
 
   generateBtn.addEventListener("click", writePassword);
 
+// Prompt for user to enter the desired length
   function generatePassword() {
     var length = prompt('Enter a password length from 8 to 128 Characters.');
     length = parseInt(length);
@@ -10,7 +11,7 @@
       length = prompt(' Please Re-Enter the desired password length from 8 to 128 Characters.');
       length = parseInt(length);
     }
-
+// Prompts for Upper and Lower Case letters as well as Special and Numbers
     var includeUpper = confirm('Include Uppercase letters in your password?');
     var includeLower = confirm('Include Lowercase letters in your password?');
     var includeSpecial = confirm('Include Special Characters in your password?');
