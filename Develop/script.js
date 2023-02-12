@@ -8,6 +8,11 @@ function generatePassword(length, includeNumbers, includeSpecial){
     chars+='!#$%&@?[]^*)(+,.:;=><\_`~}{'
   }
 }
+var password ='';
+for (var i=0; i < length; i++ ){
+  password += chars.charAt (Math.floor ( Math.random() *chars.length));
+}
+  return password;
 
 
 
