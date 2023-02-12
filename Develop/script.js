@@ -6,6 +6,12 @@ function generatePassword(){
     length = prompt (' Please Re-Enter the desired password length from 8 to 128 Characters.');
     length = parseInt (length);
   }
+
+  var includeUpper = confirm ( 'Include Uppercase letters in your password?');
+  var includeLower = confirm ( 'Include Lowercase letters in your password?');
+  var includeSpecial = confirm ( 'Include Special Characters in your password?');
+  var includeNumbers = confirm ( 'Include Numbers in your password?');
+
   var chars='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
   if(includeNumbers){
     chars+='0123456789';
