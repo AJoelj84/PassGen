@@ -1,3 +1,6 @@
+
+var generateBtn.addEventListener("click", writePassword);
+
 // function for letter, number, and special character selection
 function generatePassword(){
   var length = prompt ('Enter a password length from 8 to 128 Characters.');
@@ -12,13 +15,24 @@ function generatePassword(){
   var includeSpecial = confirm ( 'Include Special Characters in your password?');
   var includeNumbers = confirm ( 'Include Numbers in your password?');
 
-  var chars='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-  if(includeNumbers){
-    chars+='0123456789';
-  }
-  if(includeSpecial){
-    chars+='!#$%&@?[]^*)(+,.:;=><\_`~}{'
-  }
+  var chars='';
+    if ( includeUpper){
+      chars+='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    }
+    if ( includeLower){
+      chars+='abcdefghijklmnopqrstuvwxyz'
+    }
+    if(includeNumbers){
+      chars+='0123456789';
+    }
+    if(includeSpecial){
+      chars+='!#$%&@?[]^*)(+,.:;=><\_`~}{'
+    }
+    if (chars===''){
+      alert ('At least one type must be chosen!');
+      return '';
+    }
+
 }
 var password ='';
 for (var i=0; i < length; i++ ){
@@ -38,4 +52,4 @@ function writePassword(){
 }
 
 // Add event listener to generate button
-var generateBtn.addEventListener("click", writePassword);
+
