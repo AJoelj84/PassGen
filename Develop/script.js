@@ -15,6 +15,16 @@ for (var i=0; i < length; i++ ){
   return password;
 
 
+function writePassword(){
+  var passwordLength = 128;
+  var includeNumbers = true;
+  var includeSpecial = true;
+  var password = generatePassword(passwordLength, includeNumbers, includeSpecial);
+  var passwordText = document.querySelector ( '#password');
+
+  passwordText.value = password;
+}
+
 
 
 
