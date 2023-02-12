@@ -1,5 +1,11 @@
 // function for letter, number, and special character selection
-function generatePassword(length, includeNumbers, includeSpecial){
+function generatePassword(){
+  var length = prompt ('Enter a password length from 8 to 128 Characters.');
+  length = parseInt (length);
+  while ( length < 8 || length > 128 || isNaN (length)){
+    length = prompt (' Please Re-Enter the desired password length from 8 to 128 Characters.');
+    length = parseInt (length);
+  }
   var chars='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
   if(includeNumbers){
     chars+='0123456789';
@@ -26,4 +32,4 @@ function writePassword(){
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+var generateBtn.addEventListener("click", writePassword);
