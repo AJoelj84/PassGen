@@ -5,12 +5,12 @@ To use this password generator click the red "Generate Password" Button. You wil
 Final build ready for deployment
 
 # Screen Shots
-![Alt text](Screenshot%202023-02-12%20192300.jpg)
-![Alt text](Screenshot%202023-02-12%20192324.jpg)
-![Alt text](Screenshot%202023-02-12%20192336.jpg)
-![Alt text](Screenshot%202023-02-12%20192349.jpg)
-![Alt text](Screenshot%202023-02-12%20192400.jpg)
-![Alt text](Screenshot%202023-02-12%20192411.jpg)
-![Alt text](Screenshot%202023-02-12%20192423.jpg)
-![Alt text](too%20few.jpg)
-![Alt text](reenter.jpg)
+![Alt text](assets/Screenshot%202023-02-12%20192300.jpg)
+![Alt text](assets/Screenshot%202023-02-12%20192324.jpg)
+![Alt text](assets/Screenshot%202023-02-12%20192336.jpg)
+![Alt text](assets/Screenshot%202023-02-12%20192349.jpg)
+![Alt text](assets/Screenshot%202023-02-12%20192400.jpg)
+![Alt text](assets/Screenshot%202023-02-12%20192411.jpg)
+![Alt text](assets/Screenshot%202023-02-12%20192423.jpg)
+![Alt text](assets/too%20few.jpg)
+![Alt text](assets/reenter.jpg)
