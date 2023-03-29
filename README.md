@@ -4,6 +4,11 @@ To use this password generator click the red "Generate Password" Button. You wil
 # Build Status
 Final build ready for deployment
 
+# Links
+[Deployed Page](https://ajoelj84.github.io/PassGen/)
+
+[Repository](https://github.com/AJoelj84/PassGen)
+
 # Screen Shots
 ![Alt text](assets/Screenshot%202023-02-12%20192300.jpg)
 ![Alt text](assets/Screenshot%202023-02-12%20192324.jpg)
